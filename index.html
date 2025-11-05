@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-CA">
 <head>
+<meta charset="UTF-8">
 <title>Exercise 7: Banh Mi, menus, and layout</title>
 <!-- This is embed code for Google fonts, take a look at  https://fonts.google.com/ for more info, you can just pick fonts and get an embed code which you use here. See how I am controlling them from <style> most of the CSS is just pasted in from Google and I have made tweaks to the weights and added other bits. This is what we will learn next week.-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,8 +17,9 @@
   }
   
   li {
-  margin-right: 15px;
+  margin-right: 20px;
   display: inline-block;
+  font-size: 25px;
   } 
   
   a {
@@ -31,7 +33,7 @@
   .container-style {
     margin-bottom: 40px;
     gap: 20px;
-    grid-template-columns: 50%, 50%;
+    grid-template-columns: 50% 50%;
     display: grid;
   }
   
@@ -48,6 +50,8 @@
   }
   
   body {
+  margin: auto;
+  background-color: #C1E1C1;
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -66,6 +70,8 @@
   }
   #site-title {
     text-align: center;
+    font-size: 80px;
+
   }
   nav {
   font-family: "Raleway", sans-serif;
@@ -75,9 +81,11 @@
   }
   
   footer {
+  width: 95.8%;
   margin-top: 40px;
-  padding: 25px;
+  padding: 30px;
   text-align: center;
+  font-size: 30px;
   background-color: white;
   }
   
